@@ -13,12 +13,13 @@ pip install -r requirements.txt
 之後執行缺甚麼就安裝甚麼即可
 
 
-使用方式 
+使用方式: python mot\run_tracker.py --config examples\mot_1.yaml
 
-python mot\run_tracker.py --config examples\mot_1.yaml
+需先將訓練好的ReID model 放入AI_CUP_vehicle_mtmc/reid/vehicle_reid/model下
 
+例如AI_CUP_vehicle_mtmc/reid/vehicle_reid/model/Resnet50_ibn11
 
-mot_1.yaml檔案形式為
+其中mot_1.yaml檔案形式為
 
 OUTPUT_DIR: "output/resnet50_ibn/1/0903_125957_131610"
 
