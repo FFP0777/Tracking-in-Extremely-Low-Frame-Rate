@@ -50,7 +50,7 @@ MOT:
 
 將config/defaults.py內的
 
-# minimum number of bounding boxes per track
+minimum number of bounding boxes per track
 C.MOT.MIN_FRAMES = 10 改成為1
 
 即可運行低幀率追蹤
