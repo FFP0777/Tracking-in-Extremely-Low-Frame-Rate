@@ -41,4 +41,8 @@ MOT:
   
   選定要跟蹤的影片及藥使用的ReID model 即可
 
+
+也可直接下載https://github.com/regob/vehicle_mtmc，將mot內的tracker.py更換成我的tracker.py。
+
+將byte_track內的byte_trackers.py及matching.py更換成我的也行。
   
