@@ -1,6 +1,6 @@
 <h1 align="center"> AI_CUP MTMC Tracking</h1>
 
-基於https://github.com/regob/vehicle_mtmc 去修改 使其能跟蹤低幀率(fps:1)的資料集，由與此作者提供的輸入只能視影片檔，所以須使用我的轉檔.py 把test相片資料集做轉換。
+基於https://github.com/regob/vehicle_mtmc 去修改 使其能跟蹤低幀率(fps:1)的資料集，由與此作者提供的輸入只能是影片檔，所以要使用我的轉檔.py 把test相片資料集做轉換。
 
 安裝:
 
