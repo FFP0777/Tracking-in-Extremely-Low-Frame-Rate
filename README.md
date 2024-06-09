@@ -11,7 +11,7 @@ pip install cython "numpy>=1.18.5,<1.23.0"
 pip install -r requirements.txt
 
 之後執行缺甚麼就安裝甚麼即可
-  
+
 
 使用方式 
 
