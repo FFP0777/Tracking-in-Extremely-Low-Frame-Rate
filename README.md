@@ -19,15 +19,23 @@ python mot\run_tracker.py --config examples\mot_1.yaml
 
 
 mot_1.yaml檔案形式為
+
 OUTPUT_DIR: "output/resnet50_ibn/1/0903_125957_131610"
+
 MOT:
+
   VIDEO: r"D:\vehicle_mtmc\datasets\race\0903_125957_131610.mp4"
+  
   REID_MODEL_OPTS: r"D:\vehicle_mtmc\reid\vehicle_reid\model\resnet50_ibn11\opts.yaml"
+  
   REID_MODEL_CKPT: r"D:\vehicle_mtmc\reid\vehicle_reid\model\resnet50_ibn11\net_44.pth"
+  
   DETECTOR: "yolov5x6"      //不需動
   
   TRACKER: "bytetrack_iou"  //只能用這個我改過的跟蹤模型處裡低幀率資料 
+  
   SHOW: false               //運行時顯示跟蹤效果
+  
   VIDEO_OUTPUT: true        //要不要保存相關結果
 
   
