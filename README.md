@@ -1,13 +1,22 @@
 <h1 align="center"> AI_CUP MTMC Tracking</h1>
+
 基於https://github.com/regob/vehicle_mtmc 去修改 使其能跟蹤低幀率(fps:1)的資料集，由與此作者提供的輸入只能視影片檔，所以須使用我的轉檔.py 把test相片資料集做轉換。
+
 安裝:
+
 pip install cython "numpy>=1.18.5,<1.23.0"
+
 安裝:
+
 pip install -r requirements.txt
+
 之後執行缺甚麼就安裝甚麼即可
   
+
 使用方式 
+
 python mot\run_tracker.py --config examples\mot_1.yaml
+
 
 mot_1.yaml檔案形式為
 OUTPUT_DIR: "output/resnet50_ibn/1/0903_125957_131610"
@@ -21,6 +30,7 @@ MOT:
   SHOW: false               //運行時顯示跟蹤效果
   VIDEO_OUTPUT: true        //要不要保存相關結果
 
+  
   選定要跟蹤的影片及藥使用的ReID model 即可
 
   
