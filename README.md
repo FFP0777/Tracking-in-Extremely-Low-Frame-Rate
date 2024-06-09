@@ -39,7 +39,7 @@ MOT:
   VIDEO_OUTPUT: true        //要不要保存相關結果
 
   
-  選定要跟蹤的影片及藥使用的ReID model 即可
+  選定要跟蹤的影片及要使用的ReID model 即可
 
 
 也可去直接下載https://github.com/regob/vehicle_mtmc
