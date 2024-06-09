@@ -1,0 +1,16 @@
+*.mkv
+*.mp4
+*.pt
+*.zip
+*.tar.gz
+datasets/*/
+datasets/id_split*
+datasets/*.csv
+output/*
+output_save/*
+models/*
+mot/deep_sort_orig/
+.idea
+__py*
+.venv
+.jedi

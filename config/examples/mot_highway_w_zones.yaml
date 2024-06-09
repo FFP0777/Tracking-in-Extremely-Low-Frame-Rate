@@ -1,0 +1,23 @@
+OUTPUT_DIR: "output/mot_highway"
+FONTSIZE: 11
+MOT:
+  VIDEO: "datasets/highway.mp4"
+  REID_MODEL_OPTS: "models/resnet50_mixstyle/opts.yaml"
+  REID_MODEL_CKPT: "models/resnet50_mixstyle/net_19.pth"
+  CALIBRATION: "config/examples/highway_calibration.txt"
+  REID_FP16: false
+  REID_BATCHSIZE: 1
+  DETECTOR: "yolov5x6"
+  TRACKER: "bytetrack_iou"
+  DETECTION_MASK: "assets/highway_mask.jpg"
+  SHOW: false
+  VIDEO_OUTPUT: true
+  STATIC_ATTRIBUTES:
+    - color: "models/color_svm.pkl"
+    - type: "models/type_svm.pkl"
+  ATTRIBUTE_INFER_BATCHSIZE: 1
+  REFINE: false
+  ZONE_MASK_DIR: "assets/zones/highway/"
+  VALID_ZONEPATHS:
+    - "^(1,)+(0(,0)*,)?2(,2)*$"
+    - "^(4,)+(0(,0)*,)?3(,3)*$"

@@ -1,0 +1,17 @@
+
+OUTPUT_DIR: "output/resnet50_ibn/4/1"
+MOT:
+  VIDEO: r"D:\vehicle_mtmc\datasets\race\0902_130006_131041.mp4"
+  REID_MODEL_OPTS: r"D:\vehicle_mtmc\reid\vehicle_reid\model\resnet50_ibn11\opts.yaml"
+  REID_MODEL_CKPT: r"D:\vehicle_mtmc\reid\vehicle_reid\model\resnet50_ibn11\net_39.pth"
+  DETECTOR: "yolov5x6"
+  
+  TRACKER: "bytetrack_iou"
+  SHOW: true
+  VIDEO_OUTPUT: false
+
+  
+
+
+  ###Tracklets: 178 resnet50_ibn11\net_39.pth"
+  ### #Tracklets: 201               net44.pth

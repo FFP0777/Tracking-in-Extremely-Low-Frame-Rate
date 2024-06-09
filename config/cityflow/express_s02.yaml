@@ -1,0 +1,64 @@
+OUTPUT_DIR: "output/AI_CUP"
+DEBUG_RUN: false
+FONTSIZE: 15
+MOT:
+  REID_MODEL_OPTS: "models/resnet50_mixstyle/opts.yaml"
+  REID_MODEL_CKPT: "models/resnet50_mixstyle/net_19.pth"
+  REID_FP16: false
+  REID_BATCHSIZE: 1
+  DETECTOR: "yolov5x6"
+  TRACKER: "bytetrack_iou"
+  MIN_FRAMES: 5
+  SHOW: false
+  VIDEO_OUTPUT: false
+  STATIC_ATTRIBUTES:
+    - color: "models/color_svm.pkl"
+    - type: "models/type_svm.pkl"
+  ATTRIBUTE_INFER_BATCHSIZE: 1
+  REFINE: false
+MTMC:
+  CAMERA_LAYOUT: 'config/cityflow/s02_camera_layout.txt'
+  LINKAGE: 'average'
+  MIN_SIM: 0.5
+EXPRESS:
+  FINAL_VIDEO_OUTPUT: true
+  CAMERAS:
+    - "video": "datasets/cityflow_track3/validation/S02/c006/vdo.avi"
+      "detection_mask": "assets/ai_cup/c0.jpg" #0
+      "calibration": "datasets/cityflow_track3/validation/S02/c006/calibration.txt"
+    - "video": "datasets/cityflow_track3/validation/S02/c007/vdo.avi"
+      "detection_mask": "assets/ai_cup/c1.jpg" #1
+      "calibration": "datasets/cityflow_track3/validation/S02/c007/calibration.txt"
+    - "video": "datasets/cityflow_track3/validation/S02/c008/vdo.avi"
+      "detection_mask": "assets/ai_cup/c2.jpg" #2
+      "calibration": "datasets/cityflow_track3/validation/S02/c008/calibration.txt"
+    - "video": "datasets/cityflow_track3/validation/S02/c009/vdo.avi"
+      "detection_mask": "assets/ai_cup/c3.jpg" #3
+      "calibration": "datasets/cityflow_track3/validation/S02/c009/calibration.txt"
+    - "video": "datasets/cityflow_track3/validation/S02/c009/vdo.avi"
+      "detection_mask": "assets/ai_cup/c4.jpg" #4
+      "calibration": "datasets/cityflow_track3/validation/S02/c009/calibration.txt"
+      - "video": "datasets/cityflow_track3/validation/S02/c009/vdo.avi"
+      "detection_mask": "assets/ai_cup/c5.jpg" #5
+      "calibration": "datasets/cityflow_track3/validation/S02/c009/calibration.txt"
+      - "video": "datasets/cityflow_track3/validation/S02/c009/vdo.avi"
+      "detection_mask": "assets/ai_cup/c6.jpg" #6
+      "calibration": "datasets/cityflow_track3/validation/S02/c009/calibration.txt"
+      - "video": "datasets/cityflow_track3/validation/S02/c009/vdo.avi"
+      "detection_mask": "assets/ai_cup/c7.jpg" #7
+      "calibration": "datasets/cityflow_track3/validation/S02/c009/calibration.txt"
+
+
+
+
+# EVAL:
+#   MIN_IOU: 0.35
+#   IGNORE_FP: true
+#   DROP_SINGLE_CAM: true
+#   GROUND_TRUTHS:
+#     - "datasets/cityflow_track3/validation/S02/c006/gt/gt.txt"
+#     - "datasets/cityflow_track3/validation/S02/c007/gt/gt.txt"
+#     - "datasets/cityflow_track3/validation/S02/c008/gt/gt.txt"
+#     - "datasets/cityflow_track3/validation/S02/c009/gt/gt.txt"
+
+    
