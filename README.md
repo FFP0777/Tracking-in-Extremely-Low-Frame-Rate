@@ -47,4 +47,11 @@ MOT:
 將mot內的tracker.py更換成我的tracker.py。
 
 將byte_track內的byte_tracker.py及matching.py更換成我的。
+
+將config/defaults.py內的
+
+# minimum number of bounding boxes per track
+C.MOT.MIN_FRAMES = 10 改成為1
+
+即可運行低幀率追蹤
   
