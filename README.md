@@ -2,7 +2,9 @@ Strategy of Vehicle Tracking in Extremely Low Frame-Rate(fps:1)
 
 (c) is our method
 
-![image](https://github.com/user-attachments/assets/cde87542-e977-4b2f-9ac9-9d44f6711c37)
 
-  
-![image](https://github.com/user-attachments/assets/2507e63c-0f4a-412d-93da-f8f19679b988)
+![image](https://github.com/user-attachments/assets/b6f699a4-ef58-4c8a-8d2e-17df7fd6028a)
+
+![image](https://github.com/user-attachments/assets/b4a3785d-c11d-43d5-b6c8-5aca095dc74f)
+
+
