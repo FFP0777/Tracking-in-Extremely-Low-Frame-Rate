@@ -1,4 +1,4 @@
-Strategy of Vehicle Tracking in Extremely Low Frame-Rate
+Strategy of Vehicle Tracking in Extremely Low Frame-Rate(fps:1)
 
 (c) is our method
 
