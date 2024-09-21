@@ -1,5 +1,7 @@
 Strategy of Vehicle Tracking in Extremely Low Frame-Rate
 
+(c) is our method
+
 ![image](https://github.com/user-attachments/assets/cde87542-e977-4b2f-9ac9-9d44f6711c37)
 
   
