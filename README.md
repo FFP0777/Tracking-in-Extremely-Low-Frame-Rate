@@ -1,4 +1,4 @@
-Strategy of Vehicle Tracking in Extremely Low Frame-Rate(fps:1)
+Strategy of Vehicle Tracking in Extremely Low Frame-Rate(fps<1)
 
 (c) is our method based on modifications to https://github.com/regob/vehicle_mtmc
 
