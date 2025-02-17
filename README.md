@@ -2,7 +2,12 @@
 
 Tracking vehicles at extremely low frame rates presents significant challenges, such as large motion gaps and tracking inconsistencies.  
 My method introduces improvements to enhance performance in such conditions.  
+---
 
+  
+This approach is based on modifications to [vehicle_mtmc](https://github.com/regob/vehicle_mtmc).  
+
+---
 ## 📉 Before Improvement  
 🚦 **Tracking performance without modifications**  
 [📹 Watch Video](https://youtu.be/YtXWp95bHh8)  
@@ -11,12 +16,7 @@ My method introduces improvements to enhance performance in such conditions.
 ✅ **Enhanced tracking with my method**  
 [📹 Watch Video](https://youtu.be/Er_qR1FbvoI)  
 
----
 
-### 🛠️ Methodology  
-This approach is based on modifications to [vehicle_mtmc](https://github.com/regob/vehicle_mtmc).  
-
----
 
 ## 📸 Visual Comparisons  
 
