@@ -20,7 +20,7 @@ This approach is based on modifications to [vehicle_mtmc](https://github.com/reg
 
 ## 📸 Visual Comparisons  
 
-(c) is my method based on modifications to 
+(c) is my method  
   
 ![Before Improvement](https://github.com/user-attachments/assets/2a8c9281-2e9f-4f30-ad61-f15aa453eecd)  
 
