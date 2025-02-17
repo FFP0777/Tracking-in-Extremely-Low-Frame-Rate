@@ -20,10 +20,10 @@ This approach is based on modifications to [vehicle_mtmc](https://github.com/reg
 
 ## 📸 Visual Comparisons  
 
-### **Before Improvement:**  
+  
 ![Before Improvement](https://github.com/user-attachments/assets/2a8c9281-2e9f-4f30-ad61-f15aa453eecd)  
 
-### **After Improvement:**  
+ 
 ![After Improvement](https://github.com/user-attachments/assets/523b4176-67cb-4374-b647-0719414fd419)  
 
 ---
