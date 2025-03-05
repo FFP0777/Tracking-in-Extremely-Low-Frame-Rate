@@ -1,7 +1,6 @@
 # 🚗 Strategy of Vehicle Tracking in Extremely Low Frame-Rate (fps < 1)
 
-Tracking vehicles at extremely low frame rates presents significant challenges, such as large motion gaps and tracking inconsistencies.  
-My method introduces improvements to enhance performance in such conditions.  
+在極低影格率（FPS）條件下進行車輛追蹤往往面臨重大挑戰，例如車輛在相鄰畫面之間移動距離過大以及追蹤不穩定。我的方法針對這些問題進行改良，能在此環境中有效提升追蹤效能。 
 ---
 
   
